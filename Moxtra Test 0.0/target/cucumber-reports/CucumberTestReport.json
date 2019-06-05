@@ -1,0 +1,127 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Enter to some url direction",
+        "description": "",
+        "id": "login-in-moxtra;enter-to-some-url-direction;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3836464138,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I access to the browser",
+            "match": {
+              "location": "LoginMoxtraSteps.iAccessToTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7185605653,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I go to the \"https://fisqa.moxtra.com/mybank/sa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://fisqa.moxtra.com/mybank/sa",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginMoxtraSteps.iGoToThe(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 221400660,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#  When I type the correct user \"\u003cuser\u003e\""
+              },
+              {
+                "line": 12,
+                "value": "#  When I type the correct pass \"\u003cpass\u003e\""
+              }
+            ],
+            "line": 14,
+            "name": "I type the correct user \"sa001\" and pass \"sa001123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sa001",
+                  "offset": 25
+                },
+                {
+                  "val": "sa001123",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginMoxtraSteps.iTypeTheCorrectUserAndPass(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1140955622,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click login",
+            "match": {
+              "location": "LoginMoxtraSteps.iClickLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 640620400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I close the driver",
+            "match": {
+              "location": "LoginMoxtraSteps.iCloseTheDriver()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@LogingMoxtra"
+          }
+        ]
+      }
+    ],
+    "name": "Login in Moxtra",
+    "description": "",
+    "id": "login-in-moxtra",
+    "keyword": "Feature",
+    "uri": "loginMoxtra.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LogingMoxtra"
+      }
+    ]
+  }
+]
